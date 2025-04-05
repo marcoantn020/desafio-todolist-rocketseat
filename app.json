@@ -19,10 +19,27 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.marcoantn020.todolist"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "packagerOpts": {
+      "config": "metro.config,js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "76403e92-8fe2-4b13-ac17-2ee9691b5220"
+      }
+    },
+    "owner": "marcoantn020"
   }
 }
